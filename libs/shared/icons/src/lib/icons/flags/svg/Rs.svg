@@ -1,0 +1,18 @@
+<svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="0.25" width="19.5" height="13.5" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
+<mask id="mask0_11425_87802" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="14">
+<rect x="0.25" y="0.25" width="19.5" height="13.5" rx="1.75" fill="white" stroke="white" stroke-width="0.5"/>
+</mask>
+<g mask="url(#mask0_11425_87802)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 9.33329H20V4.66663H0V9.33329Z" fill="#17508F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.66667H20V0H0V4.66667Z" fill="#E1444D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.28577 6.99996C4.28577 6.58667 4.49141 5.70892 4.63242 5.15563C4.70629 4.86579 4.96879 4.66663 5.2679 4.66663H7.11437C7.4129 4.66663 7.67507 4.86511 7.74919 5.15429C7.89018 5.70443 8.09529 6.57736 8.09529 6.99996C8.09529 7.50413 7.76126 8.80053 7.65272 9.20846C7.63067 9.29136 7.59285 9.36806 7.53681 9.43301C7.32918 9.67368 6.75985 10.2666 6.19053 10.2666C5.62074 10.2666 5.05096 9.67272 4.84374 9.43243C4.78805 9.36785 4.75037 9.29165 4.72829 9.20928C4.6197 8.80424 4.28577 7.51662 4.28577 6.99996Z" fill="white"/>
+<mask id="mask1_11425_87802" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="5" height="7">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.28577 6.99996C4.28577 6.58667 4.49141 5.70892 4.63242 5.15563C4.70629 4.86579 4.96879 4.66663 5.2679 4.66663H7.11437C7.4129 4.66663 7.67507 4.86511 7.74919 5.15429C7.89018 5.70443 8.09529 6.57736 8.09529 6.99996C8.09529 7.50413 7.76126 8.80053 7.65272 9.20846C7.63067 9.29136 7.59285 9.36806 7.53681 9.43301C7.32918 9.67368 6.75985 10.2666 6.19053 10.2666C5.62074 10.2666 5.05096 9.67272 4.84374 9.43243C4.78805 9.36785 4.75037 9.29165 4.72829 9.20928C4.6197 8.80424 4.28577 7.51662 4.28577 6.99996Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_11425_87802)">
+<path d="M8.09528 5.13329L4.28576 9.79996" stroke="#E1444D" stroke-width="1.33333" stroke-linecap="square"/>
+<path d="M4.28582 5.13329L8.09534 9.79996" stroke="#E1444D" stroke-width="1.33333" stroke-linecap="square"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="0.25" width="19.5" height="13.5" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
+<mask id="mask0_11425_87719" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="14">
+<rect x="0.25" y="0.25" width="19.5" height="13.5" rx="1.75" fill="white" stroke="white" stroke-width="0.5"/>
+</mask>
+<g mask="url(#mask0_11425_87719)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 14H20V9.33337H0V14Z" fill="#EC3938"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.66667H20V0H0V4.66667Z" fill="#51B422"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.71914 8.20057C9.74045 8.17881 9.75247 8.14961 9.75264 8.11916L9.76068 6.74126C9.76135 6.62661 9.66859 6.53331 9.55394 6.53331C9.36875 6.53331 9.27697 6.30853 9.40924 6.17891L9.76668 5.82862C9.89629 5.7016 10.1037 5.7016 10.2333 5.82862L10.5901 6.17831C10.7226 6.30815 10.6307 6.53331 10.4452 6.53331C10.3308 6.53331 10.2381 6.62603 10.2381 6.7404V8.11783C10.2381 8.14905 10.2506 8.17896 10.2729 8.20081C10.3473 8.27366 10.2957 8.39998 10.1916 8.39998H9.80294C9.69901 8.39998 9.64641 8.27481 9.71914 8.20057Z" fill="#159940"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0L6.66667 7L0 14V0Z" fill="#258DE7"/>
+</g>
+</svg>

@@ -1,0 +1,51 @@
+{
+  "name": "student-shell",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/student/shell/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project student-shell --web",
+  "targets": {
+    "pre-serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "./",
+        "commands": [
+          "npx nx run student-dashboard:dev-preview"
+        ]
+      }
+    },
+    "serve-project": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "npx nx run student-shell:pre-serve",
+          "npx nx run student-shell:serve"
+        ]
+      }
+    },
+    "build": {
+      "options": {
+        "config": "vite.config.prod.ts"
+      }
+    },
+    "post-build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "npx nx run student-dashboard:build"
+        ]
+      }
+    },
+    "build-project": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "npx nx run student-shell:build --verbose",
+          "npx nx run student-shell:post-build --verbose"
+        ],
+        "parallel": false
+      }
+    }
+  }
+}

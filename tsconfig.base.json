@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom", "esnext", "es2022"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/icons": ["libs/shared/icons/src/lib/icons/global"],
+      "@shared/icons/altbox": ["libs/shared/icons/src/lib/icons/altbox"],
+      "@shared/icons/colourful": ["libs/shared/icons/src/lib/icons/colourful"],
+      "@shared/icons/custom": ["libs/shared/icons/src/lib/icons/custom"],
+      "@shared/icons/flags": ["libs/shared/icons/src/lib/icons/flags"],
+      "@shared/ui": ["libs/shared/ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

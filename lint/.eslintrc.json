@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "./base.js",
+    "./import-order.js",
+    "./prettier.js",
+    "./a11y",
+    "./client.js"
+  ],
+  "root": true,
+  "env": {
+    "node": true
+  }
+}
